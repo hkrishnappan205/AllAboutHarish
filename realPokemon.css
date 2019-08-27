@@ -1,0 +1,155 @@
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+body{
+  background-image: url("1.jpg");
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 100px;
+  margin-top: 70px;
+  }
+  #intro{
+  font-size: 80px;
+  font-weight: bold;
+  font-family: courier;
+  color: purple;
+  text-align: center;
+  }
+  .main{
+  font-size: 15px;
+  font-weight: normal;
+  font-family: cursive;
+  color: black;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-top: -60px;
+  }
+  footer{
+  background-color: rgb(78,172,71);
+  text-align: center;
+  padding: 0px;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  }
+
+  li {
+  float: left;
+  }
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  li a:hover {
+  background-color: green;
+  }
+  ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+  li {
+  border-right: 2px solid white;
+  }
+
+  li:last-child {
+  border-right: none;
+  }
+
+  li {
+  display: inline;
+  }
+  div.gallery {
+  margin: 20px;
+  border: 1px solid white;
+  float: left;
+  width: 180px;
+  color: white;
+  }
+  div.gallery:hover {
+  border: 1px solid purple;
+  color: purple;
+  }
+
+  div.gallery img {
+  width: 100%;
+  height: auto;
+  }
+
+  div.desc {
+  padding: 30px;
+  text-align: center;
+  }
+  footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  }
+  #click{
+  color: purple;
+  font-size: 15px;
+  font-family: cursive;
+  weight: normal;
+  margin-left: 15px;
+  margin-right:15px;
+  text-align: center;
+  }
+  a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+
+  a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }

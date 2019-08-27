@@ -14,7 +14,7 @@ body{
   text-align: center;
 }
 .main{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
   color: black;
@@ -68,7 +68,7 @@ div.gallery {
   margin: 20px;
   border: 1px solid white;
   float: left;
-  width: 180px;
+  width: 300px;
   color: white;
 }
 div.gallery:hover {

@@ -7,14 +7,14 @@ body{
   margin-top: 70px;
   }
   #intro{
-  font-size: 80px;
+  font-size: 90px;
   font-weight: bold;
   font-family: courier;
   color: yellow;
   text-align: center;
   }
   .main{
-  font-size: 15px;
+  font-size: 22px;
   font-weight: bold;
   font-family: sans-serif;
   color: yellow;
@@ -68,7 +68,7 @@ body{
   margin: 20px;
   border: 1px solid white;
   float: left;
-  width: 227px;
+  width: 250px;
   color: white;
   }
   div.gallery:hover {

@@ -7,14 +7,14 @@ body{
   margin-top: 70px;
   }
   #intro{
-  font-size: 80px;
+  font-size: 90px;
   font-weight: bold;
   font-family: courier;
   color: yellow;
   text-align: center;
   }
   .main{
-  font-size: 15px;
+  font-size: 22px;
   font-weight: bold;
   font-family: sans-serif;
   color: yellow;
@@ -68,7 +68,7 @@ body{
   margin: 20px;
   border: 1px solid white;
   float: left;
-  width: 180px;
+  width: 230px;
   color: white;
   }
   div.gallery:hover {
@@ -100,7 +100,7 @@ body{
   text-align: center;
   }
   a:visited {
-  color: yellow;
+  color: white;
   background-color: transparent;
   text-decoration: none;
   }
@@ -110,7 +110,7 @@ body{
   text-decoration: underline;
   }
   a:active {
-  color: yellow;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
   }

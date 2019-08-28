@@ -98,7 +98,6 @@ footer{
   margin-left: 15px;
   margin-right:15px;
 text-align: center;
-position: relative;
 }
 a:visited {
   color: blue;
@@ -125,3 +124,4 @@ a:active {
   margin-right: 16px;
   font-size: 17px;
 }
+
